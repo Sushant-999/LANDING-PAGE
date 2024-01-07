@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(239, 238, 233);
+}
+
+.main {
+    background-image: url(home-banner-background.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 72vw;
+}
+
+.logo {
+    margin: 40px;
+    padding: 25px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 12px;
+    color: rgb(16, 16, 16);
+    font-size: 15px;
+}
+
+.logo2 {
+    margin: 40px;
+    padding: 25px;
+    gap: 50px;
+}
+
+.button {
+    height: 50px;
+    width: 135px;
+    border-radius: 30px;
+    border-color: white;
+    background-color: white;
+}
+
+.head img {
+    height: 50vw;
+    width: 50vw;
+}
+
+.font {
+    font-size: 60px;
+    margin: 20px;
+    padding: 10px;
+}
+
+div ul li {
+    list-style: none;
+}
+
+.font2 {
+    font-size: 25px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.hero {
+    background-image: url(about-background.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 72vw;
+}
+.button2{
+    height: 50px;
+    width: 135px;
+    border-radius: 30px;
+    border-color: #f1a23c;
+    background-color: #f1a23c;
+    margin: 30px;
+}
+.font3{
+    font-size: 35px;
+    margin: 20px;
+    padding: 10px;
+    color: #f1a23c;
+}
+.work{
+    font-size: 30px;
+    padding: 15px;
+    margin: 0 0 0 250px;
+    color: #f1a23c;
+}
+.work1{
+    font-size: 55px;
+    margin: 0 0 0 150px
+}
+.work2{
+    margin: 15px 0 0 0;
+    font-size: 25px;
+}
+.work3{
+    font-size: 25px;
+    margin: 5px 0 0 40px;
+}
+.work4{
+    font-size: 25px;
+    margin: 5px 0 0 96px;
+}
+.cardContainer{
+    margin: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    left: 225px;
+}
+.card img{
+    margin: 0 0 0 30px;
+}
+.card1{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    left: 380px;
+}
+.card1 img{
+    margin: 0 0 0 30px;
+}
+.card2{
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    position: relative;
+    left: 525px;
+}
+.card2 img{
+    margin: 0 0 0 35px;
+    height: 135px;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+.have{
+    font-size: 30px;
+    margin: 60px 0 0 0;
+}
+.gap{
+    gap: 15px;
+}
+.button3{
+    height: 50px;
+    width: 500px;
+    border-radius: 30px;
+    border-color: #ffffff;
+    background-color: white;
+    color: rgb(37, 36, 36);
+    font-size: 20px;
+}
+.button4{
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    border-color: #ffffff;
+    background-color: #f1a23c;
+    color: hwb(0 5% 94%);
+    font-size: 15px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: hwb(0 5% 94%);
+    margin: 100px 0 0 150px;
+}
+footer a {
+    font-size: 20px;
+    color: hwb(0 5% 94%);
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
